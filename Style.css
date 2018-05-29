@@ -30,9 +30,9 @@
 }
 
 @media only screen and (min-width: 768px) {
-  #small    {width: 33.33%; display: flex;}
-  #medium   {width: 66.66%; display: flex;}
-  #large    {width: 100%; display: flex;}
+  #small    {width: 33.33%; float: left;}
+  #medium   {width: 33.33%; float: left;}
+  #large    {width: 33.33%; float: left;}
 }
 
 /* @media only screen and (min-width: 300px) { */

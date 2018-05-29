@@ -4,7 +4,9 @@
     }
 }
 
-@media only screen and (min-width: 300px, max-width: 768px) {
+@media only screen
+  and (min-width: 300px)
+  and (max-width: 768px) {
     body {
         background-color: green;
     }
@@ -16,26 +18,46 @@
     }
 }
 
+@media only screen and (min-width: 300px) {
+  #small {
+    display: none;
+  }
+}
+
 @media only screen and (max-width: 300px) {
-  div.example {
+    #medium {
+      display: none;
+    }
+}
+
+@media only screen and (min-width: 768px) {
+  #medium {
     display: none;
   }
 }
 
 @media only screen and (max-width: 768px) {
-  div.example {
+  #large {
     display: none;
   }
 }
 
 @media only screen and (min-width: 300px) {
-  div.example {
+  #small {
     font-size: 80px;
   }
 }
 
+@media only screen
+  and (max-width: 300px)
+  and (min-width: 768px) {
+    #medium {
+        font-size: 50px;
+    }
+}
+
 @media only screen and (max-width: 768px) {
-  div.example {
+  #large {
     font-size: 30px;
   }
 }
